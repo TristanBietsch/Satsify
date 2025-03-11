@@ -1,0 +1,129 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  padding: 16px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  color: #f7931a; /* Bitcoin orange */
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Exchange rate section */
+.exchange-rate {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.last-updated {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .3s;
+}
+
+input:checked + .slider {
+  background-color: #f7931a; /* Bitcoin orange */
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f7931a; /* Bitcoin orange */
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Convert button */
+.convert-btn {
+  background-color: #f7931a; /* Bitcoin orange */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.convert-btn:hover {
+  background-color: #e07c08;
+}
+
+.convert-btn:active {
+  background-color: #d37208;
+} 

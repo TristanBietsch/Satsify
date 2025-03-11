@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satsify</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Satsify</h1>
+    
+    <div class="exchange-rate">
+      <p>Current BTC/USD: <span id="btc-rate">Loading...</span></p>
+      <p class="last-updated">Last updated: <span id="last-updated">--</span></p>
+    </div>
+
+    <div class="controls">
+      <div class="toggle-container">
+        <label for="auto-convert">Auto-Convert USD to Sats</label>
+        <label class="switch">
+          <input type="checkbox" id="auto-convert">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      
+      <button id="convert-now" class="convert-btn">Convert Now</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 

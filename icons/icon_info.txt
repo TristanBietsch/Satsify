@@ -1,0 +1,18 @@
+Icon Requirements:
+
+1. Create the following icons in Bitcoin orange (#f7931a) with a minimal, clean design:
+   - icon16.png (16x16 pixels)
+   - icon48.png (48x48 pixels)
+   - icon128.png (128x128 pixels)
+
+2. Suggested design:
+   - A simple "S" with a Bitcoin symbol or a combination of a dollar sign and Bitcoin symbol
+   - Use a flat design style with clean lines
+   - Keep it recognizable even at small sizes
+
+3. Tools to create icons:
+   - Adobe Illustrator, Photoshop, or similar graphics software
+   - Online tools like Figma, Canva, or GIMP
+   - Icon generators specifically for browser extensions
+
+Remember to export in PNG format with transparency. 
