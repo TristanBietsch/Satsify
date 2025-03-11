@@ -1,7 +1,6 @@
 ![Satsify Demo](demo/satsify-demo.gif)
 
-
-# Satsify Chrome Extension for Amazon ⚡💰
+# <img src="icons/satsify.png" alt="Satsify Logo" width="128" height="128" style="vertical-align: middle; margin-right: 10px"> Satsify Chrome Extension for Amazon ⚡💰
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
