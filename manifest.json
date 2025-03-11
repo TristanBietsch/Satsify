@@ -15,9 +15,6 @@
     "*://*.amazon.es/*",
     "*://*.amazon.co.jp/*"
   ],
-  "content_security_policy": {
-    "extension_pages": "script-src 'self' https://scripts.simpleanalyticscdn.com; object-src 'self'"
-  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
