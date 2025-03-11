@@ -1,6 +1,5 @@
 # Satsify Chrome Extension for Amazon ⚡💰
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/satsify.svg?style=social&label=Star)](https://github.com/yourusername/satsify)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/satsify/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/satsify/pulls)
@@ -91,9 +90,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is available under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## 📬 Contact
-
-For support or contributions, please submit an issue or pull request on GitHub.
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername.svg?style=social&label=Follow)](https://twitter.com/yourusername)
