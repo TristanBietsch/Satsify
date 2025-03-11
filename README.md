@@ -1,52 +1,66 @@
-# Satsify Chrome Extension
+# Satsify Chrome Extension for Amazon ⚡💰
 
-A minimal Chrome extension that converts USD amounts on webpages to satoshis (sats).
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/satsify.svg?style=social&label=Star)](https://github.com/yourusername/satsify)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/satsify/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/satsify/pulls)
+[![Bitcoin](https://img.shields.io/badge/Bitcoin-Friendly-orange)](https://bitcoin.org)
 
-## Features
+A Chrome extension that converts Amazon product prices from USD to satoshis (sats). 🔄
 
-- **Automatic Detection**: Detects USD amounts in various formats on web pages
-- **Real-Time Conversion**: Converts USD to satoshis based on current Bitcoin exchange rates
-- **Minimal UI**: Simple, user-friendly interface with only essential controls
-- **Live Price Updates**: Fetches current Bitcoin prices from CoinGecko (with Coinbase as backup)
-- **Tooltip Display**: Hover over converted amounts to see original USD values
-- **Toggle Conversion**: Enable or disable automatic conversion with a simple switch
-- **Manual Conversion**: "Convert Now" button for on-demand conversion
+## ✨ Features
 
-## Installation
+- **🛍️ Amazon Integration**: Seamlessly converts prices on Amazon product pages
+- **🔍 Smart Detection**: Accurately detects Amazon price formats and components
+- **⚡ Real-Time Conversion**: Converts USD to satoshis based on current Bitcoin exchange rates
+- **💻 Minimal UI**: Simple, user-friendly interface with only essential controls
+- **📊 Live Price Updates**: Fetches current Bitcoin prices from CoinGecko (with Coinbase as backup)
+- **💭 Tooltip Display**: Hover over converted amounts to see original USD values
+- **🔄 Toggle Conversion**: Enable or disable automatic conversion with a simple switch
+- **🖱️ Manual Conversion**: "Convert Now" button for on-demand conversion
+
+## 🚀 Installation
 
 ### From Chrome Web Store
-- Coming soon
+- 🔜 Coming soon
 
 ### Manual Installation
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" (toggle in the top-right corner)
-4. Click "Load unpacked" and select the `satsify` directory
-5. The extension should now be installed and visible in your Chrome toolbar
+1. 📥 Download or clone this repository
+2. 🌐 Open Chrome and navigate to `chrome://extensions/`
+3. 👨‍💻 Enable "Developer mode" (toggle in the top-right corner)
+4. 📁 Click "Load unpacked" and select the `satsify` directory
+5. ✅ The extension should now be installed and visible in your Chrome toolbar
 
-## Usage
+## 📖 Usage
 
-1. Click the Satsify icon in your Chrome toolbar to open the popup
-2. Toggle "Auto-Convert USD to Sats" to enable automatic conversion on all web pages
-3. Use the "Convert Now" button to manually convert USD amounts on the current page
-4. Hover over converted amounts to see the original USD value
+1. 🌐 Visit any Amazon product page or search results
+2. 🖱️ Click the Satsify icon in your Chrome toolbar to open the popup
+3. 🔄 Toggle "Auto-Convert USD to Sats" to enable automatic conversion on Amazon
+4. 👆 Use the "Convert Now" button to manually convert prices on the current page
+5. 👀 Hover over converted amounts to see the original USD value
 
-## How It Works
+## ⚙️ How It Works
 
-- Satsify scans web pages for text containing USD amounts in various formats
-- It converts these amounts to satoshis using the formula: `sats = usd_amount * 100,000,000 / btc_price_in_usd`
-- It replaces the original USD text with the satoshi amount, formatted for readability
-- The extension avoids converting USD in input fields, textareas, or editable elements
+- 🔍 Satsify detects prices on Amazon pages using specialized selectors
+- 🎯 It handles various Amazon price formats including:
+  - Regular product prices
+  - Deal prices
+  - Price ranges
+  - "List Price" and "Sale Price"
+- 🧮 Converts prices to satoshis using the formula: `sats = usd_amount * 100,000,000 / btc_price_in_usd`
+- 🔄 Replaces the original USD text with the satoshi amount, formatted for readability
+- 🔒 Preserves Amazon's page functionality while providing Bitcoin-native prices
 
-## Privacy & Permissions
+## 🔒 Privacy & Permissions
 
 Satsify requires minimal permissions:
-- `activeTab`: To detect and convert USD on the current webpage
+- `activeTab`: To detect and convert prices on Amazon pages
 - `storage`: To save your preferences and Bitcoin price data
+- `*://*.amazon.com/*`: To operate on Amazon domains
 
 The extension doesn't collect any personal data or browsing history.
 
-## Development
+## 👨‍💻 Development
 
 ### Project Structure
 ```
@@ -57,7 +71,7 @@ satsify/
 │   ├── popup.css        # Styling for popup
 │   └── popup.js         # Popup functionality
 ├── scripts/
-│   ├── content.js       # Main script for detecting and converting USD
+│   ├── content.js       # Main script for Amazon price conversion
 │   └── bitcoin-api.js   # Functions for fetching BTC price data
 ├── background.js        # Background script for handling events
 └── icons/
@@ -66,10 +80,20 @@ satsify/
     └── icon128.png
 ```
 
-## License
+## 📋 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/satsify/issues)
+
+## 📜 License
 
 This project is available under the MIT License.
 
-## Contact
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-For support or contributions, please submit an issue or pull request on GitHub. 
+## 📬 Contact
+
+For support or contributions, please submit an issue or pull request on GitHub.
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername.svg?style=social&label=Follow)](https://twitter.com/yourusername)
