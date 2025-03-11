@@ -1,4 +1,8 @@
+![Satsify Demo](demo/satsify-demo.gif)
+
+
 # Satsify Chrome Extension for Amazon ⚡💰
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/satsify/releases)
@@ -6,6 +10,8 @@
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-Friendly-orange)](https://bitcoin.org)
 
 A Chrome extension that converts Amazon product prices from USD to satoshis (sats). 🔄
+
+Brought to you by [Nummus Bitcoin](https://www.numm.us/)
 
 ## ✨ Features
 
@@ -20,10 +26,6 @@ A Chrome extension that converts Amazon product prices from USD to satoshis (sat
 
 ## 🚀 Installation
 
-### From Chrome Web Store
-- 🔜 Coming soon
-
-### Manual Installation
 1. 📥 Download or clone this repository
 2. 🌐 Open Chrome and navigate to `chrome://extensions/`
 3. 👨‍💻 Enable "Developer mode" (toggle in the top-right corner)
@@ -90,3 +92,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is available under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## ⚡ Nummus: The Bitcoin Card
+
+Hold Bitcoin & Spend USD with Nummus, the credit card that turns everyday purchases into sats.
+
+[![Join Waitlist](https://img.shields.io/badge/Join_Waitlist-f7931a?style=for-the-badge&logo=bitcoin&logoColor=white)](https://nummus.us)

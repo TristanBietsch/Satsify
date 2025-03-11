@@ -1,9 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Satsify",
+  "name": "Satsify - Bitcoin Price Converter for Amazon",
   "version": "1.0.0",
-  "description": "Convert USD amounts on webpages to satoshis (sats)",
-  "permissions": ["activeTab", "storage"],
+  "description": "Convert Amazon product prices from USD to Bitcoin satoshis (sats). See prices in sats while shopping on Amazon!",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "*://*.amazon.com/*",
+    "*://*.amazon.co.uk/*",
+    "*://*.amazon.ca/*",
+    "*://*.amazon.com.au/*",
+    "*://*.amazon.de/*",
+    "*://*.amazon.fr/*",
+    "*://*.amazon.it/*",
+    "*://*.amazon.es/*",
+    "*://*.amazon.co.jp/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://scripts.simpleanalyticscdn.com; object-src 'self'"
+  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
@@ -22,8 +36,20 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "*://*.amazon.com/*",
+        "*://*.amazon.co.uk/*",
+        "*://*.amazon.ca/*",
+        "*://*.amazon.com.au/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.fr/*",
+        "*://*.amazon.it/*",
+        "*://*.amazon.es/*",
+        "*://*.amazon.co.jp/*"
+      ],
       "js": ["scripts/bitcoin-api.js", "scripts/content.js"]
     }
-  ]
+  ],
+  "homepage_url": "https://github.com/yourusername/satsify",
+  "author": "Your Name"
 } 
